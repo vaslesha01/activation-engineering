@@ -1,0 +1,24 @@
+# --- System & Python ---
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+
+# --- Virtual Envs ---
+.venv/
+venv/
+env/
+
+# --- Large Models ---
+*.bin
+*.pth
+*.ckpt
+*.safetensors
+
+# --- VLM Specifics ---
+# Игнорируем папку с тяжелыми данными для экстракции
+vlm/data/trait_data_extract/
+
+# --- Logs & Results ---
+*.log
